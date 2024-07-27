@@ -1,13 +1,14 @@
-import Header from "../component/Header";
+import HeaderOnly from "~/components/Layout/HeaderOnly";
 import Sidebar from "./Sidebar";
 
 import React from 'react'
 
-export default function DefaultLayout() {
+export default function DefaultLayout({ children }) {
   return (
     <div>
-        <Header />
-        <Sidebar />
+      <HeaderOnly />
+      <Sidebar />
+      <div className='content'>{children}</div>
     </div>
   )
 }
