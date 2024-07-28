@@ -8,10 +8,10 @@ export default function DefaultLayout({ children }) {
   return (
     <div>
       <HeaderOnly />
-      <div className="flex justify-center">
-        <div className="flex w-1150px">
+      <div>
+        <div>
           <Sidebar />
-          <div className='content flex-1'>
+          <div>
             {children}
           </div>
         </div>
