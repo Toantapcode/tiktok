@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function Following() {
+export default function Search() {
   return (
-    <div><h2>Following</h2></div>
+    <div><h2>Search Page</h2></div>
   )
 }
