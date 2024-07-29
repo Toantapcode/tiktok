@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function HeaderOnly({ children }) {
     return (
-        <div>
+        <div className=''>
             <Header />
             <div className="container">
                 <div className="content">{children}</div>

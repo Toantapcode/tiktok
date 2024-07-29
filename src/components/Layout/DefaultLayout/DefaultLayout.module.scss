@@ -1,0 +1,16 @@
+.container{
+    width: 1150px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.sidebar{
+    width: 356px;
+    min-height: 1000px;
+}
+
+.content{
+    flex:1;
+    min-height: 1000px;
+}
